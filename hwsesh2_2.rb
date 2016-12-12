@@ -14,6 +14,8 @@ def highest (a, b, c)
   b < a[-1] && a[-1] < c
 end
 
+puts "The random number is #{random_number}."
+
 puts "Enter a number between 1 and 100."
 entered = gets.chomp.to_i
 is_includes = includes(guess, entered)
