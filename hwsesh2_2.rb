@@ -1,6 +1,6 @@
 guess = []
 guess_count = 0
-random_number = rand(100)
+random_number = (0..100).to_a.sample
 
 def includes (a,b)
   a.include? (b)
